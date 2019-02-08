@@ -1,0 +1,20 @@
+{
+  "name": "delete-reactSetup-project",
+  "version": "1.0.0",
+  "description": "react setup guided project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivanahuckova/delete-reactSetup-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ivanahuckova/delete-reactSetup-project/issues"
+  },
+  "homepage": "https://github.com/ivanahuckova/delete-reactSetup-project#readme"
+}
