@@ -29,5 +29,9 @@
 		"eslint-plugin-react": "^7.12.4",
 		"webpack": "^4.29.3",
 		"webpack-cli": "^3.2.3"
+	},
+	"dependencies": {
+		"react": "^16.8.1",
+		"react-dom": "^16.8.1"
 	}
 }
