@@ -1,1 +1,3 @@
-console.log('hi');
+import App from './src/App';
+
+console.log(App());
