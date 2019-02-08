@@ -1,33 +1,33 @@
 {
-  "name": "delete-reactSetup-project",
-  "version": "1.0.0",
-  "description": "react setup guided project",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ivanahuckova/delete-reactSetup-project.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ivanahuckova/delete-reactSetup-project/issues"
-  },
-  "homepage": "https://github.com/ivanahuckova/delete-reactSetup-project#readme",
-  "devDependencies": {
-    "@babel/core": "^7.2.2",
-    "@babel/preset-env": "^7.3.1",
-    "@babel/preset-react": "^7.0.0",
-    "babel-loader": "^8.0.5",
-    "eslint": "^5.13.0",
-    "eslint-config-airbnb": "^17.1.0",
-    "eslint-plugin-import": "^2.16.0",
-    "eslint-plugin-jsx-a11y": "^6.2.1",
-    "eslint-plugin-react": "^7.12.4",
-    "webpack": "^4.29.3",
-    "webpack-cli": "^3.2.3"
-  }
+	"name": "delete-reactSetup-project",
+	"version": "1.0.0",
+	"description": "react setup guided project",
+	"main": "index.js",
+	"scripts": {
+		"dev": "webpack --watch"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ivanahuckova/delete-reactSetup-project.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/ivanahuckova/delete-reactSetup-project/issues"
+	},
+	"homepage": "https://github.com/ivanahuckova/delete-reactSetup-project#readme",
+	"devDependencies": {
+		"@babel/core": "^7.2.2",
+		"@babel/preset-env": "^7.3.1",
+		"@babel/preset-react": "^7.0.0",
+		"babel-loader": "^8.0.5",
+		"eslint": "^5.13.0",
+		"eslint-config-airbnb": "^17.1.0",
+		"eslint-plugin-import": "^2.16.0",
+		"eslint-plugin-jsx-a11y": "^6.2.1",
+		"eslint-plugin-react": "^7.12.4",
+		"webpack": "^4.29.3",
+		"webpack-cli": "^3.2.3"
+	}
 }

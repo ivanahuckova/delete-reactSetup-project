@@ -5,9 +5,20 @@ module.exports = {
   entry: path.resolve(__dirname, 'index.js'),
   output: {
     path: path.resolve(__dirname, 'bundle'),
-    file: 'bundle.js',
+    filename: 'bundle.js',
   },
   resolve: {
     extensions: ['.js', '.jsx'],
+  },
+  module: {
+    rules: [
+      {
+        test: /\.(js|jsx)$/,
+        exlude: /node_modules/,
+        use: {
+          loader: 'babel-loader',
+        },
+      },
+    ],
   },
 };
